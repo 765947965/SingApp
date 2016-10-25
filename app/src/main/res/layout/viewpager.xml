@@ -7,6 +7,25 @@
     <cn.xxs.horizontalgridview.singapp.TestBaseViewPager
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
-        android:layout_height="360dp" />
+        android:layout_height="0dp"
+        android:layout_weight="1" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="50dp">
+
+        <Button
+            android:id="@+id/btUp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="上一个" />
+
+        <Button
+            android:id="@+id/btDown"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="下一个" />
+    </LinearLayout>
 </LinearLayout>
